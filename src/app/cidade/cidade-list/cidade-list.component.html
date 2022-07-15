@@ -1,0 +1,7 @@
+<po-page-dynamic-table p-title="Cidades" [p-fields]="fields" [p-actions]="actions"
+    p-service-api="http://191.23.83.141:8080/api/sec/v1/exemplo" [p-load]="onLoad.bind(this)" [p-height]="700"
+    [p-breadcrumb]="breadcrumb">
+</po-page-dynamic-table>
+<div class="sample-container">
+    <po-loading-overlay p-screen-lock="true" p-text="Carregando" [hidden]="isHideLoading"></po-loading-overlay>
+</div>
